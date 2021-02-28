@@ -1,0 +1,28 @@
+{
+  "name": "speed-word",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Papatiara/speed-word.git"
+  },
+  "author": "patricia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Papatiara/speed-word/issues"
+  },
+  "homepage": "https://github.com/Papatiara/speed-word#readme",
+  "dependencies": {
+    "@google-cloud/vision": "^2.3.1",
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.7"
+  }
+}

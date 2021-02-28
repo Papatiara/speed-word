@@ -30,6 +30,10 @@ body, html{
     outline: none;
 }
 
+#upload-button {
+    display: flex;
+}
+
 .wrapper-text {
     display: none;
     justify-content: center;
